@@ -1,0 +1,2 @@
+＃将默认Netlify子域重定向到主域
+http://fomowinner.netlify.com/* http://www.fomowinner.com/:splat 301！
