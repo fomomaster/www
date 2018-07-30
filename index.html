@@ -148,7 +148,7 @@
   .token-card { background: #fff; border-radius: 6px; padding: 20px; margin-bottom: 20px; }
   .token-card .token-card-heading { color: #3000b4; margin: 0; margin-bottom: 15px; }
   .countdown-wrap  { color: #fff; }
-  #countdown span { font-size: 52px; font-family: Overpass, sans-serif; }
+  #countdown span { font-size: 52px; font-family: Overpass, sans-serif; font-weight: bold; display: inline-block; width: 70px; }
 </style>
 <!-- hero -->
 <div class="index-box-wrap" style="background: url(//hardbin.com/ipfs/QmW8zEzfzT8vR7nW7fNU52hg4xqK1fangquSYGNgoK6F1J?2.jpg) center center;background-size:cover; color: #fff; margin-top: -62px; height: 600px;">
@@ -163,9 +163,9 @@
           <h2 style="color: #fff;">COMING SOON ...</h2>
           <!-- 倒计时 -->
           <div class="countdown-wrap">
-            <div class="container"><div id="countdown"></div></div>
+            <div><div id="countdown"></div></div>
             <script type="text/javascript">
-            $('#countdown').countdown('2020/10/10').on('update.countdown', function(event) {
+            $('#countdown').countdown('2018/8/15').on('update.countdown', function(event) {
               var $this = $(this).html(event.strftime(''
                 + '<span>%D</span> 天 '
                 + '<span>%H</span> 时 '
